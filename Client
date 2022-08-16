@@ -1,0 +1,26 @@
+
+package tutorial;
+
+public class Client {
+    private static final Client INSTANCE = new Client();
+    private DiscordRP discordRP = new DiscordRP();
+
+    public Client() {
+    }
+
+    public static final Client getInstance() {
+        return INSTANCE;
+    }
+
+    public void init() {
+        this.discordRP.start();
+    }
+
+    public void shutdown() {
+        this.discordRP.shutdown();
+    }
+
+    public DiscordRP getDiscordRP() {
+        return this.discordRP;
+    }
+}
