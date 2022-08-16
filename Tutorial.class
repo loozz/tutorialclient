@@ -1,7 +1,4 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
+
 
 package tutorial;
 
@@ -15,9 +12,9 @@ import tutorial.mod.ModManager;
 import tutorial.util.config.Config;
 
 public class Tutorial {
-    public String NAME = "MacerClient";
+    public String NAME = "Clientİsmi";
     public String VERSION = "1.0.0";
-    public String AUTHOR = "furkan";
+    public String AUTHOR = "şirket ismi yada kişisel";
     public String NAMEVER;
     public static Tutorial INSTANCE = new Tutorial();
     public Minecraft mc;
